@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+#heading {
+    color: blueviolet;
+}
+
+/* External Styling */
+#heading {
+    color: brown;
+}
+
+div {
+    color: gold;
+}
+
+#para {
+    color: cadetblue;
+}
+
+.h2 {
+    color: crimson;
+}
+
+#first, #second {
+    color: pink;
+}
