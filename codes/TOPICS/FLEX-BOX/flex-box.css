@@ -1,0 +1,151 @@
+* {
+    padding: 0px; margin: 0px;
+}
+h1 {
+    text-align: center;
+}
+#container1 {
+    background-color: darkturquoise;
+    height: 350px;
+    width: 550px;
+    margin: 5px;
+    /* by default it is row */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: coral;
+    margin: 4px;
+}
+
+#container2 {
+    background-color: darkturquoise;
+    height: 350px;
+    width: 550px;
+    margin: 5px;
+    /* by default it is row */
+    display: flex;
+    flex-direction: column-reverse;
+}
+#container3 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+#container4 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+#container5 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#container6 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#container7 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+#container8 {
+    background-color: darkturquoise;
+    height: 100px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ram {
+    background-color: coral;
+    height: 90px;
+    width: 60px;
+    margin: 5px;
+}
+h4 {
+    text-align: center;
+}
+#container9 {
+    background-color: darkturquoise;
+    height: 500px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#div0 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 4px;
+    align-self: flex-end;
+}
+#container10 {
+    background-color: darkturquoise;
+    height: 500px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#div17 {
+    /* align-self will not work when you used align-content and flex-wrap properties */
+    align-self: flex-end;
+    
+}
+#container11 {
+    background-color: darkturquoise;
+    height: 500px;
+    width: 550px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+#box11 {
+    flex-shrink: 4;
+    flex-grow: 1;
+    order: 5;
+}
+#box12 {
+    /* it will not shrink */
+    flex-shrink: 0;
+    order: 4;
+}
+#box13 {
+    order: 3;
+}
+#box14 {
+    order: 2;
+}
+#box15 {
+    order: 1;
+}
