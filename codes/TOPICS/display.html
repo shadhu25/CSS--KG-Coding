@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display properties</title>
+    <style>
+        #span1 {
+            background-color: green;
+            /* we cannot use height and width on inline element */
+            height: 100px;
+            margin: 5px;
+        }
+        #span2 {
+            background-color: green;
+            /* now we will use height, width and padding */
+            display: block;
+            height: 100px;
+            margin: 5px;
+        }
+        #div1 {
+            background-color: green;
+            /* changing block element to inline element so we can't use height and width */
+            display: inline;
+        }
+        #span3 {
+            background-color: green;
+            /* now it will still inline element but we can use height and width */
+            display: inline-block;
+            height: 100px;
+        }
+        #button {
+            /* it will hide the element and do not take any space on webpage */
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <span id="span1">Krishn</span>
+    <span id="span2">Radha</span>
+    <div id="div1">Hanuman</div>
+    <span id="span3">Ram</span>
+    <button id="button">Sita</button>
+    <button>Narayan</button>
+</body>
+</html>
