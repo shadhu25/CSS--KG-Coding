@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting viewport</title>
+    <style>
+        #img1 {
+            /* If the CSS width property is set to 100%,
+            the image will be responsive and scale up and down */
+            width: 100%;
+            height: 300px;
+        }
+        #img2 {
+            /* If the max-width property is set to 100%, the image will scale down if it has to, 
+            but never scale up to be larger than its original size */
+            max-width: 100%;
+            height: 300px;
+        }
+        h1 {
+            font-size: 10vw;
+        }
+        h2 {
+            font-size: 5vw;
+        }
+        #container {
+            display: flex;
+            background-color: deepskyblue;
+        }
+        #d1 {
+            background-color: gold;
+            width: 40%;
+            height: 200px;
+        }
+        #d2 {
+            width: 30%;
+            height: 200px;
+            background-color: green;
+        }
+        #d3 {
+            width: 30%;
+            height: 200px;
+            background-color: pink;
+        }
+        @media screen and (max-width: 500px) {
+            #container {
+                flex-direction: column;
+            }
+            #d1, #d2, #d3 {
+                width: 100%; 
+            }
+}
+    </style>
+</head>
+<body>
+    <!-- making images responsive -->
+    <img id="img1" src="/codes/IMAGES/2407074.jpg" alt="">
+    <img id="img2" src="/codes/IMAGES/2407074.jpg" alt="">
+    <!-- making texts responsive -->
+    <h1>SitaRam</h1>
+    <h2>Radhe Radhe</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, earum id veniam quam tempora perferendis incidunt, voluptates ab nulla natus facilis ullam nisi harum hic magni nam delectus. Sint, odio.
+    Incidunt aperiam minima debitis voluptates amet impedit praesentium blanditiis laborum, dolor dicta rerum at dolorem unde dolores dolore hic ex voluptate, quae ad libero nihil porro. Necessitatibus culpa rem in?
+    Omnis officia aliquam nam, recusandae esse temporibus eaque voluptates et quasi vitae fuga iusto totam, ipsum consectetur veniam! Aspernatur quae adipisci quasi. Velit nihil saepe enim reiciendis iusto sint soluta?
+    Culpa minima dignissimos accusamus aut sint illo modi, iusto totam magni, perferendis nam praesentium quia placeat impedit in aspernatur fugit assumenda voluptatem iste omnis error hic sequi ad laboriosam. Ullam.
+    Laborum debitis, natus quasi facere id aut eius ad rerum tempore suscipit iure, dolores inventore porro dolorum error, totam consectetur voluptas impedit maiores adipisci illum! Dolore commodi illo error accusantium.
+    Maxime id deserunt deleniti ea sint dolore, quae perferendis inventore accusamus fugit beatae fugiat, atque fuga ipsum explicabo ut facilis eaque corrupti amet quas? Magnam necessitatibus pariatur qui ex odit!
+    Quas ducimus exercitationem, nam vitae voluptatem numquam atque odit ex optio ab reiciendis harum nemo, corporis quod hic libero maxime doloremque saepe repudiandae minima aliquid suscipit laborum fugiat! Dicta, voluptate.
+    Atque dolores quo mollitia vitae temporibus quidem commodi fugiat molestiae deleniti quis. Nesciunt, earum, explicabo tenetur dignissimos, expedita nulla saepe totam fuga nobis in deserunt assumenda perspiciatis labore! Totam, omnis.
+    Reiciendis asperiores praesentium distinctio aut. Voluptatibus labore, ipsa error at nihil voluptates libero? Voluptate ex dolor delectus perfe
+</p>
+<!-- making responsive using @media -->
+<div id="container">
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+</div>
