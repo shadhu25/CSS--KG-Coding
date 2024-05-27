@@ -1,1 +1,1 @@
-This repository is about my learning of CSS first time. I am leaning from KG Coding youtube channel by Prashant Sir. You will found my practice codes, excercises, and my own notes while learning CSS. If you found this repository useful, you can use it.
+This repository is about my learning of CSS first time. I am learning from KG Coding youtube channel by Prashant Sir. You will found my practice codes, excercises, and my own notes while learning CSS. If you found this repository useful, you can use it.
